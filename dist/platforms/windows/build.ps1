@@ -170,6 +170,7 @@ $unityArgs = @(
     "-androidTargetSdkVersion", "`"$Env:ANDROID_TARGET_SDK_VERSION`"",
     "-androidExportType", "`"$Env:ANDROID_EXPORT_TYPE`"",
     "-androidSymbolType", "`"$Env:ANDROID_SYMBOL_TYPE`"",
+    "-force-driver-type-warp",
     "-logfile", "-"
 ) + $customParametersArray
 
