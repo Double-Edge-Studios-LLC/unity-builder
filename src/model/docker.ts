@@ -117,8 +117,7 @@ class Docker {
             --volume "${actionFolder}/BlankProject":"c:/BlankProject" \
             --cpus=${dockerCpuLimit} \
             --memory=${dockerMemoryLimit} \
-            --device="class/5B45201D-F2F2-4F3B-85BB-30FF1F953599" \
-            --isolation=process \
+            --isolation=${dockerIsolationMode} \
             ${image} \
             powershell c:/steps/entrypoint.ps1`;
   }
