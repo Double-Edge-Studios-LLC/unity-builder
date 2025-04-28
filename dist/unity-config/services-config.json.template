@@ -2,6 +2,6 @@
   "licensingServiceBaseUrl": "%URL%",
   "enableEntitlementLicensing": true,
   "enableFloatingApi": true,
-  "clientConnectTimeoutSec": 5,
-  "clientHandshakeTimeoutSec": 10
+  "clientConnectTimeoutSec": 60,
+  "clientHandshakeTimeoutSec": 60
 }
